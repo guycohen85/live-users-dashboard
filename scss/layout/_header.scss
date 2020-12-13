@@ -1,0 +1,20 @@
+header{
+    border-bottom: 1px solid $strong_gray;
+    background: #fff;
+    padding: 20px;
+
+    h1{
+        margin:0;
+    }
+
+    .logo{
+        color:$main_color;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+    @media(max-width:530px){
+        h1, .logo{
+            font-size:16px;
+        }
+    }
+}

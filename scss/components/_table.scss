@@ -1,0 +1,14 @@
+::part(table){
+    width: 100%;
+    text-align: left;
+}
+
+::part(table-head){
+    background:$strong_gray;
+}
+
+::part(th){
+    padding:14px 30px;
+    font-weight: normal;
+    color: #888;
+}

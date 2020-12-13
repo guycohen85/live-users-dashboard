@@ -1,0 +1,27 @@
+::part(form-wrapper){
+    // background:red;
+    text-align: center;
+}
+
+::part(form-input){
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+}
+
+::part(label){
+    text-align: left;
+    display: block;
+    font-weight: 500;
+    margin: 5px 2px 5px;
+}
+
+.error{
+    color:red;
+    text-align: center;
+    margin-top:10px;
+}

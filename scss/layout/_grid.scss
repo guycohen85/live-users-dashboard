@@ -1,0 +1,27 @@
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: block;
+    background: #fff;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid $strong_gray;
+    overflow: auto;
+}
+.mini-container{
+    @extend .container;
+    max-width: 500px;
+    padding: 20px;
+}
+.container-no-bg{
+    @extend .container;
+    background: none;
+    border: none;
+    margin-top: 40px;
+    padding:0 15px;
+}

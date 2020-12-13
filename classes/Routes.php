@@ -1,6 +1,6 @@
 <?php 
-require_once $rootFolder."/classes/Controllers/UserController.php";
-require_once $rootFolder."/classes/Controllers/AuthController.php";
+require_once $rootFolder."/classes/controllers/UserController.php";
+require_once $rootFolder."/classes/controllers/AuthController.php";
 
 /** GET Request **/
 if ( $_SERVER['REQUEST_METHOD'] === 'GET' ) {

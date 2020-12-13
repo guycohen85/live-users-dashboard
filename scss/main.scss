@@ -1,0 +1,16 @@
+@import 'base/normalize';
+@import 'base/variables';
+@import 'base/typography';
+
+@import 'components/buttons';
+@import 'components/custom-user';
+@import 'components/form';
+@import 'components/popup';
+@import 'components/table';
+
+@import 'layout/grid';
+@import 'layout/header';
+
+body{
+    background-color: $gray;
+}

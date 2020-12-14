@@ -6,7 +6,7 @@ http://188.166.160.54/
 The progress of the project can be seen by the commits: 
 https://github.com/guycohen85/live-users-dashboard/commits/main
 
-## Tecnologies
+## Technologies
 - PHP7.4 - OOP
 - DB - database.json file
 - JavaScript - A module, vanilla JS, Web-Components (https://developer.mozilla.org/en-US/docs/Web/Web_Components)
